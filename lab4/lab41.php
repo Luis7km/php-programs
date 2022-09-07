@@ -11,7 +11,7 @@
                 if($_REQUEST['Ventas'] > 79){
                     echo '<img src="./green.png">';
                 }
-                if($_REQUEST['Ventas'] < 80 and $_REQUEST['Ventas'] > 50) {
+                if($_REQUEST['Ventas'] < 80 and $_REQUEST['Ventas'] > 49) {
                     echo '<img src="yellow.png">';
                 }
                 if($_REQUEST['Ventas'] < 50) {
