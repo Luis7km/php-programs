@@ -82,7 +82,7 @@
 
         function __construct($d, $a) {
             $this->diametro = $d;
-            $this->altu = $a;
+            $this->altura = $a;
             $this->pi = 3.141593;
             $this->radio = $d/2;
         }
