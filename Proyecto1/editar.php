@@ -37,7 +37,8 @@
                     echo ("<a href='Act_resume.php'>Volver al resumen de actividades</a>");
     
                 } else {
-                    echo "Favor llenar todos los campos";
+                    echo "Favor llenar todos los campos <br><br>";
+                    echo ("<a href='Act_resume.php'>Volver al formulario</a>");
                 }
             }
 
@@ -63,7 +64,8 @@
                 <option value="Viaje">Viaje</option>
                 <option value="Super_Mercado">Super Mercado</option>
                 </select> <br> <br>
-                <input type="submit" name="actualizar" value="actualizar">
+                <input type="submit" name="actualizar" value="Actualizar">
+                <input type="submit" name="eliminar" value="Eliminar">
             </form>
             <a href="Act_resume.php">Volver</a>
         <?php

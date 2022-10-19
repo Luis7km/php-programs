@@ -28,7 +28,8 @@
                 echo ("<a href='Act_resume.php'>Volver al resumen de actividades</a>");
 
             } else {
-                echo "Favor llenar todos los campos";
+                echo "Favor llenar todos los campos <br><br>";
+                echo ("<a href='insertar.php'>Volver al formulario</a>");
             }
         } else {
         ?>
@@ -51,6 +52,7 @@
             <input type="submit" name="insertar" value="Aceptar">
         </form>
         <?php
+            print ("<a href='Act_resume.php'>Volver...</a>");
             }
         ?>
 
