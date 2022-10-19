@@ -33,6 +33,7 @@
             }
         } else {
         ?>
+        <h1>Añadir actividad</h1>
         <form method="POST" action="insertar.php">
             Titulo <input type="text" name="titulo"> <br> <br>
             Fecha <input type="date" name="fecha"> <br> <br>
